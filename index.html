@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferrari</title>
+    <!-- Font Awsome V-6.4.0 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="main_header">
+      <nav>
+        <ul>
+          <li><a href="#Store">Store</a></li>
+          <li><a href="#Parts">Parts</a></li>
+          <li><a href="#News">News</a></li>
+          <li>
+            <div class="logo">
+              <a href="#"></a>
+              <img src="./images/logo.png" alt="Logo" />
+            </div>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+
+        <i class="fa-solid fa-bars open_menu"></i>
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Landing Section -->
+    <section class="Landing" id="Landing">
+      <h1>FERRARI</h1>
+      <p>FERRARI PUROSANGUE</p>
+      <button id="buy_btn">Buy Now</button>
+    </section>
+    <!-- End Landing Section -->
+
+    <!-- Start Store Section -->
+    <section class="Store" id="Store">
+      <div class="container">
+        <div class="special_heading">
+          <h1>Store</h1>
+          <p>Top style and top performance, for life in pole position</p>
+        </div>
+        <div class="Cards_List" id="Cards_List">
+          <!-- Start Card Prototype -->
+          <!-- <div class="Card">
+            <div class="image">
+              <img src="./images/Store/image_1.png" alt="" />
+            </div>
+            <div class="title_price">
+              <h3>Leather Jacket</h3>
+              <h3>$ 3,900</h3>
+            </div>
+            <p class="description">
+              This jacket is water proof and original lather. You can use it
+              both rainy and winter seassion.
+            </p>
+            <button>Buy now</button>
+          </div> -->
+          <!-- End Card Prototype -->
+        </div>
+      </div>
+    </section>
+    <!-- End Store Section -->
+    <!-- Start Parts Section -->
+    <section class="Parts" id="Parts">
+      <div class="container">
+        <div class="special_heading">
+          <h1>Parts</h1>
+          <p>Find the parts details and spacification from this section.</p>
+        </div>
+        <div class="Images_List">
+          <img src="./images/Parts/Parts_1.png" alt="" />
+          <img src="./images/Parts/Parts_2.png" alt="" />
+          <img src="./images/Parts/Parts_3.png" alt="" />
+          <img src="./images/Parts/Parts_4.png" alt="" />
+          <img src="./images/Parts/Parts_6.png" alt="" />
+          <img src="./images/Parts/Parts_5.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End Parts Section -->
+    <!-- Start News Section -->
+    <section class="News" id="News">
+      <div class="container">
+        <div class="special_heading">
+          <h1>News/ Stories</h1>
+          <p>
+            You can get updated events and racing details from here with video.
+          </p>
+        </div>
+        <div class="News_Stories">
+          <div class="Story_Card">
+            <img src="./images/News/Story_1.png" alt="" />
+            <h3>Ferrari ROMA</h3>
+            <i class="fa-solid fa-circle-play play_circle"></i>
+          </div>
+          <div class="Story_Card">
+            <img src="./images/News/Story_2.png" alt="" />
+            <h3>Ferrari MONZA</h3>
+            <i class="fa-solid fa-circle-play play_circle"></i>
+          </div>
+          <div class="Story_Card">
+            <img src="./images/News/Story_3.png" alt="" />
+            <h3>Ferrari S854</h3>
+            <i class="fa-solid fa-circle-play play_circle"></i>
+          </div>
+          <div class="Story_Card">
+            <img src="./images/News/Story_4.png" alt="" />
+            <h3>Ferrari FO54</h3>
+            <i class="fa-solid fa-circle-play play_circle"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start Footer Section -->
+    <footer class="main_footer">
+      <div class="container">
+        <div class="footer_text">
+          <h3>Stay up to date with our newsletter</h3>
+          <p>
+            If you subscribe our newsletter you can get update at the first of
+            ther people
+          </p>
+          <form>
+            <input type="email" placeholder="Email Adress" />
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <!-- End News Section -->
+    <script src="./javaScript/data.js" type="module"></script>
+    <script src="./javaScript/main.js" type="module"></script>
+  </body>
+</html>
