@@ -156,6 +156,7 @@ body {
 /* Start Landing Section */
 section.Landing {
   position: relative;
+  background-attachement: fixed;
   z-index: 1;
   min-height: calc(100vh - 70px);
   width: 100%;
